@@ -199,7 +199,7 @@ func getBaseString(m, u string, form url.Values) (string, error) {
 		return "", err
 	}
 	// ugly patch for formatting string as expected.
-	str = strings.Replace(str, "%2B", "%2520", -1)
+	//str = strings.Replace(str, "%2B", "%2520", -1)
 	return str, nil
 }
 
